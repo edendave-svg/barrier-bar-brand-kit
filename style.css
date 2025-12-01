@@ -1,0 +1,245 @@
+/* GLOBAL STYLES */
+body {
+    background-color: #121212; /* Deep Matte Black Background */
+    color: #A9A9A9; /* Metallic Grey as default text color */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #C9AE5D; /* Warm Gold */
+    text-align: center;
+    border-bottom: 2px solid #28282B;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #B8860B; /* Matte Gold */
+    font-size: 2em;
+    border-left: 5px solid #C9AE5D;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #28282B;
+    margin: 60px 0;
+}
+
+.section-container {
+    padding: 0 50px;
+}
+
+/* ⭐️ LOGO STYLES */
+.logo-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.logo-box {
+    text-align: center;
+    color: #B8860B; /* Matte Gold for logo elements */
+    padding: 20px;
+    border: 1px solid #28282B; /* Subtle border */
+    border-radius: 5px;
+}
+
+.logo-icon, .logo-icon-small, .logo-icon-submark {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.main-logo .logo-icon {
+    font-size: 4em;
+    margin-bottom: 5px;
+}
+
+.main-logo .logo-text {
+    font-size: 1.2em;
+    letter-spacing: 5px;
+}
+
+.secondary-logo .logo-icon-small {
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.secondary-logo .logo-text-small {
+    font-size: 0.8em;
+    letter-spacing: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.submark-ring {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #B8860B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+}
+
+.logo-icon-submark {
+    font-size: 1.8em;
+}
+
+small {
+    display: block;
+    margin-top: 10px;
+    color: #A9A9A9;
+}
+
+/* 🎨 COLOR PALETTE STYLES */
+.color-palette {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.color-swatch {
+    width: 18%; /* Adjusted for 5 swatches */
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.color-name, .color-hex {
+    font-size: 0.8em;
+    font-weight: 600;
+    margin: 2px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Specific Colors */
+.matte-gold {
+    background-color: #B8860B;
+    color: #121212;
+}
+.charcoal-black {
+    background-color: #28282B;
+    color: #A9A9A9;
+}
+.soft-black-gradient {
+    /* Using a linear gradient to simulate a soft black gradient look */
+    background: linear-gradient(to top right, #121212, #28282B);
+    color: #A9A9A9;
+}
+.metallic-grey {
+    background-color: #A9A9A9;
+    color: #121212;
+}
+.warm-gold {
+    background-color: #C9AE5D;
+    color: #121212;
+}
+
+/* 🅰️ TYPOGRAPHY STYLES */
+.typography-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.font-example {
+    border-bottom: 1px dashed #28282B;
+    padding-bottom: 20px;
+}
+
+/* Heading - Playfair Display */
+.font-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #C9AE5D; /* Warm Gold */
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+.font-sample-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: #B8860B; /* Matte Gold */
+}
+
+/* Subheading - Montserrat Semi-Bold */
+.font-subheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #C9AE5D; /* Warm Gold */
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+.font-sample-subheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #A9A9A9; /* Metallic Grey */
+}
+
+/* Body - Montserrat Regular */
+.font-body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #C9AE5D; /* Warm Gold */
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+.font-sample-body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #A9A9A9; /* Metallic Grey */
+    max-width: 700px;
+}
+
+.font-use {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #A9A9A9;
+    margin-bottom: 10px;
+}
+
+/* Mobile Responsiveness - For Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    .section-container {
+        padding: 0;
+    }
+    .logo-area {
+        flex-direction: column;
+        align-items: center;
+    }
+    .color-palette {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .color-swatch {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .font-sample-heading {
+        font-size: 1.8em;
+    }
+}
